@@ -1,0 +1,16 @@
+[package]
+name = "rustest"
+version = "0.1.0"
+authors = ["雷东升 <leidongsheng@luojilab.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "rustest"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.22"
+
+[dependencies]
+neon = "0.1.22"

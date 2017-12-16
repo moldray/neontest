@@ -1,0 +1,21 @@
+Skipping node-gyp installation as part of npm install.
+up to date in 0.542s
+
+> @ build-release /Users/Adon/.cargo/registry/src/github.com-1ecc6299db9ec823/neon-runtime-0.1.22
+> node-gyp build
+
+make: Nothing to be done for `all'.
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+running: "ar" "crs" "/Users/Adon/workspace/rustest/neontest/native/target/release/build/neon-runtime-8d75766677163648/out/libneon.a" "build/Release/obj.target/neon/src/neon.o"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+cargo:rustc-link-lib=static=neon
+cargo:rustc-link-search=native=/Users/Adon/workspace/rustest/neontest/native/target/release/build/neon-runtime-8d75766677163648/out
